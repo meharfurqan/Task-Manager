@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+IT+Moderna&display=swap');
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif,"Playwrite AU NSW";
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .6);
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+li.completed span {
+    color: green;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.complete-btn {
+    background-color: #ffc107;
+}
+
+.complete-btn:hover {
+    background-color: #e0a800;
+}
